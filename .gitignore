@@ -4,4 +4,5 @@
 # A script to easily commit & push a changeset.
 push.sh
 
-
+# MacOS Stuff
+.DS_Store
