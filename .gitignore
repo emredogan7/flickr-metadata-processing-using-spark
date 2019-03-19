@@ -1,2 +1,7 @@
 *.class
 *.log
+
+# A script to easily commit & push a changeset.
+push.sh
+
+
