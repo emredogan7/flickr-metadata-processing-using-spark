@@ -1,7 +1,9 @@
 # flickr-metadata-processing
 A simple Apache Spark application to process metadata of images taken from Flickr.  
+<br>
 CENG790 Big Data Analytics Course Assignment #1.  
 Assignment details can be found [here](./documentation/Assignment1.pdf).  
+<br>
 The assignment consists of 2 parts:
 - Processing data using Spark DataFrame API
 - Processing data using RDDs
