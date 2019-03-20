@@ -6,7 +6,8 @@ The assignment consists of 2 parts:
 - Processing data using Spark DataFrame API
 - Processing data using RDDs
 
-- Notice that, this is kind of a Spark tutorial on Scala and includes introductory data processing applications.
+<br>
+Notice that, this is kind of a Spark tutorial on Scala and includes introductory data processing applications.
 
 
 ## Part 1: Processing data using the DataFrame API
@@ -17,4 +18,10 @@ The main purpose in this part to result with images which include valid GPS info
 
 ## Part 2: Processing Data using RDDs (Resilient Distributed Datasets):
 
-RDD is a logical reference to a dataset partitioned across many different machines. Data is immutable stored in RDD. For more information on RDDs, check out [the paper](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-82.pdf).
+RDD is a logical reference to a dataset partitioned across many different machines. Data is immutable stored in RDD. For more information on RDDs, check out [the paper](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-82.pdf).  
+In this part, metadata of images is represented within a RDD of objects. For each image, an object of Picture[(see the Picture.scala)](./src/ceng790/hw1/Picture.scala) is created by using metadata and all Picture objects are kept by using RDD.  
+<br>
+
+Then, all images are grouped with repect to the location information(in which country the picture is taken). And finally, user tags of images and frequency of these tags in Flickr are kept for each country.
+
+A more comprehensive technical report can be accessed from [here](./documentation/ceng790Assignment1Report.pdf).
