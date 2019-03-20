@@ -8,7 +8,7 @@ The assignment consists of 2 parts:
 - Processing data using Spark DataFrame API
 - Processing data using RDDs
 
-<br>
+<br> 
 Notice that, this is kind of a Spark tutorial on Scala and includes introductory data processing applications.
 
 
@@ -25,5 +25,4 @@ In this part, metadata of images is represented within a RDD of objects. For eac
 
 Then, all images are grouped with repect to the location information(in which country the picture is taken). And finally, user tags of images and frequency of these tags in Flickr are kept for each country.
 
-<br>
-A more comprehensive technical report can be accessed from [here](./documentation/ceng790Assignment1Report.pdf).
+A more comprehensive technical report can be accessed from [here](./documentation/Assignment1.pdf).
