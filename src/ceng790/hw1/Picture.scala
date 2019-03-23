@@ -1,4 +1,3 @@
-
 package ceng790.hw1
 
 class Picture(fields: Array[String]) extends Serializable {
